@@ -1,0 +1,25 @@
+@import '_config';
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $font1;
+	background-color: $neutral-color1;
+	color: #555;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.container {
+	display: flex;
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+	background-color: $neutral-color1;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

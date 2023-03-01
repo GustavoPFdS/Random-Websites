@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(191, 191, 191);
+	color: #555;
+	font-size: 16px;
+	line-height: 1.6em;
+    overflow: hidden auto;
+}
+
+.container {
+	width: 960px;
+	margin:auto;
+	overflow: hidden;
+    display: grid;
+    grid-template-columns: 100px auto max-content;
+    align-items: center;
+    background-color: aqua;
+    margin-top: 20px;
+    position: relative;
+    animation-name: caixa;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000);;
+}
+
+@keyframes caixa{
+    0%{opacity: 0%; left: 300px;}
+    100%{opacity: 100%; left: 0px;}
+}
+
+img{
+    height: 100px;
+}
+
+.btn{
+    background-color: none;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #fff;
+    color: #fff;
+    text-align: center;
+    margin-right: 40px;
+    padding: 7px 30px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.565, -0.005, 0.410, 0.995);
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}

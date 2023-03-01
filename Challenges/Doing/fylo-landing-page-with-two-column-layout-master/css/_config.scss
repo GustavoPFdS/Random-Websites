@@ -1,0 +1,22 @@
+
+//Headings, Call-to-actions, Header Navigation
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+$font1:'Raleway', 'Open Sans', sans-serif;
+
+//body
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+$font2:'Open Sans' , 'Raleway', sans-serif;
+
+//layout
+$mobile-size: 375px;
+$desktop-size: 1440px;
+
+//colors
+$primary-color1: hsl(243, 87%, 12%);
+$primary-color2: hsl(238, 22%, 44%);
+
+$accent-color1: hsl(224, 93%, 58%);
+$accent-color2: hsl(170, 45%, 43%);
+
+$neutral-color1: hsl(240, 75%, 98%);
+$neutral-color2: hsl(0, 0%, 75%);
