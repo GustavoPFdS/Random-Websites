@@ -11,6 +11,10 @@ document.addEventListener('click', (event) => {
         <button id="aeae" class="btn">QUERO CRIAR UMA CONTA</button>
         `;
         check=1;
+        const children = box.children;
+        for (let i = 0; i < children.length; i++) {
+          children[i].classList.add('animate');
+        }
     }else{
         box.classList.toggle('move');
         box.innerHTML = `
@@ -19,10 +23,10 @@ document.addEventListener('click', (event) => {
         <button id="aeae" class="btn">JÁ TENHO CONTA</button>
         `;
         check=0;
-    }
-    const children = box.children;
-    for (let i = 0; i < children.length; i++) {
-      children[i].classList.add('animate');
+        const children = box.children;
+        for (let i = 0; i < children.length; i++) {
+          children[i].classList.add('animate');
+        }
     }
   }
 });

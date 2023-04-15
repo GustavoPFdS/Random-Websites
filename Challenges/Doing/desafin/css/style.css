@@ -17,6 +17,7 @@ body {
   justify-content: center;
   flex-direction: line;
   height: 100vh;
+  max-height: 800px;
 }
 
 .shadow{
@@ -175,4 +176,9 @@ a{
       transform: translateY(0);
     }
   }
-  
+
+  @media (max-width: 600px) {
+    body{
+        display: none;
+    }
+  }
