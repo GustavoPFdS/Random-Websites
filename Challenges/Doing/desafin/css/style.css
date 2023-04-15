@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: line;
-  height: 100vh;
+  height: max-content;
   max-height: 800px;
 }
 
@@ -31,6 +31,8 @@ body {
     height: 80%;
     width: 90%;
     position: relative;
+    padding: 110px 0px;
+    margin-top: 50px;
 }
 
 .box{
