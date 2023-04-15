@@ -165,7 +165,7 @@ a{
 }
 
 .box .animate {
-    animation: my-animation 850ms ease;
+    animation: my-animation 550ms ease;
   }
   @keyframes my-animation {
     0% {
